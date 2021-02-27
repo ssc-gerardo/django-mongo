@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "djangomongo"
+version = "0.1.0"
+description = ""
+authors = ["ssc-gerardo <61258657+ssc-gerardo@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+djangorestframework = "^3.12.2"
+djongo = "^1.3.4"
+Django = "3.0.5"
+pymongo = {extras = ["srv"], version = "^3.11.3"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
